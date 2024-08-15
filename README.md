@@ -1,5 +1,11 @@
 # karvaaa_django
 
+Task: Unhelpful chatbot that will return a random sentence from a corpus of sentences each time
+it is triggered. Task completed by using python and django in backend only. Test case to test
+response of chatbot and its randomness are also included.
+
+To setup and start project at local follow the following steps:-
+
 1. Install Python:
    - Ensure Python is installed on your machine. Download it from python.org.
 
@@ -8,7 +14,6 @@
    - Run: git clone https://github.com/prashant-paliwal/karvaaa_django.git
 
 3. Create Virtual Environment:
-   - Open a terminal or command prompt.
    - Run: python -m venv env
 
 4. Activate Virtual Environment:
@@ -30,7 +35,7 @@
      - Run: python manage.py migrate
 
 7. Running the Test Suite:
-   - Run test cases: python manage.py test
+   - Run test cases: python manage.py test (Check response and its randomness)
 
 8. Running the Server:
    - Start the development server: python manage.py runserver
@@ -38,5 +43,7 @@
 After these steps, you can access the Chatbot at http://127.0.0.1:8000/api/chat in your web browser.
 * Each time when you refresh it will return different response from chat api.
 
+For api documentation:(Automatic generation by using swagger)
+visit: http://127.0.0.1:8000/swagger/ or http://127.0.0.1:8000/redoc/
 
 **If you have further queries, feel free to reach out at my email - prashantpaliwal203@gmail.com **
